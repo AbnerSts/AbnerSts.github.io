@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Abner Santos (Student ID: 76030) | Web Designer and Developer</title>
+  <meta name="description" content="I create digital experiences to promote products, services, and events." />
+
+  <!-- Preload hero image -->
+  <link rel="preload" as="image" href="assets/img/handsome.jpeg" />
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="https://lunevedy.com/assets/2.0/css/lunevedy.min.css" />
+  <link rel="stylesheet" href="assets/css/custom.css" />
+
+  <!-- Icons -->
+  <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+        integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+        crossorigin="anonymous"
+        referrerpolicy="no-referrer" />
+
+  <!-- Cookie Consent -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.css">
+</head>
+
+<body>
+
+  <!-- Skip link -->
+  <a class="skip-link" href="#main">Skip to main content</a>
+
+  <!-- NAV -->
+  <nav class="theme-dark">
+    <div class="container-menu">
+      <a href="index.html" class="brand">
+        <img src="assets/img/website-logo-sample.png" alt="Abner Santos logo" width="160" height="40">
+      </a>
+
+      <div class="container-menu-links">
+        <button class="nav-toggle" id="nav-toggle-btn"
+                aria-label="Open menu"
+                aria-expanded="false"
+                aria-controls="primary-navigation">
+          <span class="bar-1"></span>
+          <span class="bar-2"></span>
+          <span class="bar-3"></span>
+        </button>
+
+        <ul class="links-wrapper" id="primary-navigation">
+          <li><a href="index.html" aria-current="page">Home</a></li>
+          <li><a href="portfolio/index.html">Portfolio</a></li>
+          <li><a href="store/index.html">Store</a></li>
+          <li>
+            <a class="btn btn-solid btn-soft" id="btn-cta" href="contact/index.html">
+              <span>Contact</span> <i class="fa-regular fa-envelope"></i>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <header class="theme-dark cols-2-half text-center-mobile">
+    <div class="col-2 col-text">
+      <div class="badge">WELCOME</div>
+      <h1>Abner Santos</h1>
+      <h2>I am an innovative front-end developer who loves to build human-friendly interfaces.</h2>
+
+      <div class="container-btn">
+        <a href="portfolio/index.html" class="btn btn-solid btn-soft">
+          <span>View my work</span><i class="fa-regular fa-folder-open"></i>
+        </a>
+        <a href="contact/index.html" class="btn btn-outline btn-soft">
+          <span>Get in touch</span><i class="fa-regular fa-envelope"></i>
+        </a>
+      </div>
+    </div>
+
+    <div class="col-2 col-visual">
+      <figure>
+        <img src="assets/img/handsome.jpeg"
+             alt="Preview of a modern ecommerce design"
+             width="1024" height="618"
+             fetchpriority="high">
+      </figure>
+    </div>
+  </header>
+
+  <!-- MAIN -->
+  <main id="main">
+
+    <section class="theme-dark section-selector-1 w-1356px">
+      <div class="col-1 text-center w-820px">
+        <h2>Recent projects</h2>
+        <h3>
+          Below you can see some examples of my recent work.
+          Check out my complete portfolio of <a href="portfolio/index.html">web design</a> projects.
+          Have a project you would like to discuss?
+          <a href="contact/index.html">Let's make something great together!</a>
+        </h3>
+      </div>
+
+      <div class="flex-cols-3 cols-gap-4">
+
+        <article class="col-3 project-card">
+          <figure class="photos-zoom photos-brightness">
+            <a href="portfolio/fashion/index.html">
+              <img src="assets/img/project-fashion.jpg"
+                   alt="Snazzy Fashion project preview"
+                   loading="lazy"
+                   width="700" height="450">
+            </a>
+          </figure>
+          <h3>Snazzy Fashion</h3>
+          <p>A web page for a fashion retailer with a background video that plays in a continuous loop.</p>
+          <a href="portfolio/fashion/index.html" class="btn btn-solid btn-soft">
+            <span>View project</span><i class="fas fa-arrow-right"></i>
+          </a>
+        </article>
+
+        <article class="col-3 project-card">
+          <figure class="photos-zoom photos-brightness">
+            <a href="portfolio/smoothies/index.html">
+              <img src="assets/img/project-smoothie.jpg"
+                   alt="Smooth Smoothies project preview"
+                   loading="lazy"
+                   width="700" height="450">
+            </a>
+          </figure>
+          <h3>Smooth Smoothies</h3>
+          <p>A multi-column, flexbox-based page layout and hero image with a tinted overlay.</p>
+          <a href="portfolio/smoothies/index.html" class="btn btn-solid btn-soft">
+            <span>View project</span><i class="fas fa-arrow-right"></i>
+          </a>
+        </article>
+
+        <article class="col-3 project-card">
+          <figure class="photos-zoom photos-brightness">
+            <a href="portfolio/crypto-wallet/index.html">
+              <img src="assets/img/project-crypto-wallet.jpg"
+                   alt="Crypto Wallet project preview"
+                   loading="lazy"
+                   width="700" height="450">
+            </a>
+          </figure>
+          <h3>Crypto Wallet</h3>
+          <p>A dark-themed responsive single-page website for a fictitious crypto wallet.</p>
+          <a href="portfolio/crypto-wallet/index.html" class="btn btn-solid btn-soft">
+            <span>View project</span><i class="fas fa-arrow-right"></i>
+          </a>
+        </article>
+
+      </div>
+    </section>
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="theme-dark text-center-desktop text-center-mobile">
+    <h2>Abner Santos</h2>
+    <h3>Front-end designer and developer</h3>
+
+    <ul class="footer-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="portfolio/index.html">Portfolio</a></li>
+      <li><a href="store/index.html">Store</a></li>
+      <li><a href="contact/index.html">Contact</a></li>
+    </ul>
+
+    <ul class="footer-icons">
+      <li>
+        <a href="https://www.linkedin.com/in/YOUR-USERNAME"
+           target="_blank" rel="noopener noreferrer"
+           aria-label="Visit my LinkedIn profile">
+          <i class="fab fa-linkedin"></i>
+        </a>
+      </li>
+      <li>
+        <a href="https://github.com/AbnerSts"
+           target="_blank" rel="noopener noreferrer"
+           aria-label="Visit my GitHub profile">
+          <i class="fab fa-github-square"></i>
+        </a>
+      </li>
+    </ul>
+
+    <p class="privacy"><a href="privacy.html">Privacy &amp; Legal</a></p>
+  </footer>
+
+  <!-- JS (site) -->
+  <script src="https://lunevedy.com/assets/js/lunevedy.js"></script>
+
+  <!-- Cookie Consent -->
+  <script src="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.js" data-cfasync="false"></script>
+  <script>
+    window.cookieconsent.initialise({
+      palette: { popup: { background: "#000" }, button: { background: "#f1d600" } },
+      content: { href: "https://ABNERSTS.github.io/privacy.html" }
+    });
+  </script>
+
+  <!-- Analytics / Inspectlet (consider loading only after consent) -->
+  <!-- Keep your current scripts here (or load after consent). -->
+
+</body>
+</html>
